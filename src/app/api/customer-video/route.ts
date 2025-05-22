@@ -6,7 +6,7 @@ export const GET = async () => {
     {
         id:1,
       url: "https://www.youtube.com/embed/bgprf5SS2Gk",
-      thumbnail: "/product/product.png",
+      thumbnail: "/product/product1.png",
       title: "Customer Review",
      
     },
