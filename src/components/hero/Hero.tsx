@@ -39,7 +39,7 @@ const Hero = () => {
   return (
     <MaxWidthWrapper>
       {/* Make this the positioned container */}
-      <div className="relative mt-5">
+      <div className="relative ">
         <Carousel setApi={setApi} opts={{ loop: true }}>
           <CarouselContent>
             {banners.map((b) => (

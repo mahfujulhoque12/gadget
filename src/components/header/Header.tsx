@@ -10,7 +10,7 @@ import { SiShopify } from 'react-icons/si';
 
 const Header = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-white'>
 
     <MaxWidthWrapper>
 
@@ -18,9 +18,9 @@ const Header = () => {
             <Link href="#">
                 <Image src={logo2} width={100} height={100} alt='logo' className='w-[100px] h-[80px]'/>
             </Link>
-            <div className='text-2xl font-semibold  text-white'>Your Brand </div>
+            <div className='text-2xl font-semibold  text-black'>Your Brand </div>
             <div className='relative'> 
-                <button className='text-white cursor-pointer'><SiShopify  size={40} /></button>
+                <button className='text-black cursor-pointer'><SiShopify  size={40} /></button>
                 <span className='text-xs font-normal bg-[#222831] text-white p-0.5 rounded-full absolute -top-2 -right-1'>02</span>
             </div>
 
